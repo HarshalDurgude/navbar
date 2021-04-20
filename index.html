@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar practice</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <style>
+        X * {
+            box-sizing: border-box;
+            margin: 0px 0px;
+            padding: 0px 0px;
+        }
+
+        img {
+            border: 6px solid rgb(92, 91, 91);
+            border-radius: 360px;
+            height: 70px;
+            width: 70px;
+        }
+
+        header {
+            margin-top: 20px;
+            height: 6vh;
+            display: flex;
+            border-radius: 10px;
+            background-color:#bab7b7;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 10px;
+        }
+
+        ul {
+            display: flex;
+        }
+
+        li,a,button {
+            text-decoration: none;
+            list-style: none;
+        }
+
+        li {
+            padding: 0px 20px;
+        }      
+
+        a {
+            font-size: 20px;
+            transition: all 0.2s ease 0s;
+            font-family: 'Roboto Slab', serif;            
+            font-weight: 500;
+            margin:0px;
+
+        }
+
+        a:hover {
+            cursor: pointer;
+            color: #f6f6f6;
+            text-decoration: underline;
+        }
+        button{
+            font-size: 20px;
+            border-radius: 10px;
+            background-color: rgb(45, 121, 221);
+            margin-right:50px ; 
+        }
+        button:hover{
+            cursor: pointer;
+            background-color:rgb(26, 105, 207) ;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="/20210408_110332.jpg" alt="logo">
+        <nav>
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Services</a></li>
+                <li><a>My Activities</a></li>
+            </ul>
+        </nav>
+        <button>Contact Us</button>
+    </header>
+</body>
+
+</html>
